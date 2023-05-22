@@ -10,7 +10,10 @@ export function handleResult({results}) {
     let color = words.toLowerCase()
     color = color.replace(/\s/g, '');
     if (!isAValidColor(color)) {
-        return;
+        const alertBox = document.querySelector('.alertBoxContainer')
+        alertBox.classList.add('show')
+        const button = document.querySelector('.buttonClose')
+        button.addEventListener('click', () => (alertBox.classList.remove('show')))
     }
     const colorSpan = document.querySelector(`.${color}`)
     colorSpan.classList.add('got')
