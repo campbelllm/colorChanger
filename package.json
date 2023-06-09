@@ -4,7 +4,7 @@
     "description": "",
     "main": "colors.js",
     "scripts": {
-      "start": "npm index.html",
+      "start": "npm i && npm index.html",
      
         "preDeploy": "npm i ",
         "build": "npm i && npm run build"
