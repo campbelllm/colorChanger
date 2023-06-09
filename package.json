@@ -6,7 +6,7 @@
     "scripts": {
       "start": "parcel index.html",
      
-        "preDeploy": "npm run build",
+        "preDeploy": "npm i && npm run build",
         "deploy": "gh-pages -d build",
         "build": "npm run build",
         "test": "npm run test",
