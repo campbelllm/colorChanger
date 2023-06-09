@@ -4,20 +4,20 @@
     "description": "",
     "main": "colors.js",
     "scripts": {
-      "start": "parcel index.html",
+      "start": "npm index.html",
      
-        "preDeploy": "npm i && npm run build",
-        "deploy": "gh-pages -d build",
-        "build": "npm run build",
-        "test": "npm run test",
+       
+     
+        "build": "npm run build"
+    
      
    
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "parcel": "2.0.1",
-      "gh-pages": "^3.1.0"
+      "parcel": "2.0.1"
+  
     },
     "browserslist": {
       "production": [
